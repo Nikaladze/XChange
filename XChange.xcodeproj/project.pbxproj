@@ -58,6 +58,7 @@
 		1807CF451F51B8AB00D7A97F /* DetailsCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807CF441F51B8AB00D7A97F /* DetailsCollectionViewCellDelegate.swift */; };
 		1807CF471F51BA7000D7A97F /* DetailsVCCollectionDataSourceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807CF461F51BA7000D7A97F /* DetailsVCCollectionDataSourceOutput.swift */; };
 		1807CF4C1F52CD6700D7A97F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807CF4B1F52CD6700D7A97F /* AboutViewController.swift */; };
+		187B8F3B1F5E8C2D008171C2 /* CurrencyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B8F3A1F5E8C2D008171C2 /* CurrencyRealm.swift */; };
 		6C4C599E9F450EE31A5F7664 /* Pods_XChange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757BD0FE91C20E0AB3D7D309 /* Pods_XChange.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		1807CF441F51B8AB00D7A97F /* DetailsCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
 		1807CF461F51BA7000D7A97F /* DetailsVCCollectionDataSourceOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVCCollectionDataSourceOutput.swift; sourceTree = "<group>"; };
 		1807CF4B1F52CD6700D7A97F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = About/AboutViewController.swift; sourceTree = "<group>"; };
+		187B8F3A1F5E8C2D008171C2 /* CurrencyRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRealm.swift; sourceTree = "<group>"; };
 		757BD0FE91C20E0AB3D7D309 /* Pods_XChange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XChange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2CAD376474C5B89E4DDF4B /* Pods-XChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XChange.release.xcconfig"; path = "Pods/Target Support Files/Pods-XChange/Pods-XChange.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -293,6 +295,7 @@
 		1807CEFB1F50463400D7A97F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				187B8F3A1F5E8C2D008171C2 /* CurrencyRealm.swift */,
 				1807CF041F5046D900D7A97F /* Currency+CoreDataClass.swift */,
 				1807CF051F5046D900D7A97F /* Currency+CoreDataProperties.swift */,
 				1807CF0A1F50530600D7A97F /* CoreDataSimpleItems.swift */,
@@ -609,6 +612,7 @@
 				1807CEF81F5040F600D7A97F /* WebServices.swift in Sources */,
 				1807CEF31F5040F600D7A97F /* Constants.swift in Sources */,
 				1807CEDD1F503D6300D7A97F /* HomeConfigurator.swift in Sources */,
+				187B8F3B1F5E8C2D008171C2 /* CurrencyRealm.swift in Sources */,
 				1807CF471F51BA7000D7A97F /* DetailsVCCollectionDataSourceOutput.swift in Sources */,
 				1807CEF61F5040F600D7A97F /* CoreDatastoreRoutines.swift in Sources */,
 				1807CF3F1F51888E00D7A97F /* DetailsCollectionViewCell.swift in Sources */,

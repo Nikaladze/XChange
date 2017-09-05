@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'XChange' do
     pod 'Alamofire', '~> 4.4'
+    pod 'RealmSwift'
 end

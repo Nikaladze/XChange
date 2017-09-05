@@ -14,7 +14,9 @@ class HomeInteractor: HomeInteractorInput {
 //    MARK: - Private methods
     
     func getCachedCurrencies() {
-        output.homeInteractorOutput(didFetchCurrencies: CoreDataSimpleItems.convertToCurrencyItems(coredata: CoreDataMethods.sharedInstance.cachedCurrencies))
+//        output.homeInteractorOutput(didFetchCurrencies: CoreDataSimpleItems.convertToCurrencyItems(coredata: CoreDataMethods.sharedInstance.cachedCurrencies))
+        output.homeInteractorOutput(didFetchCurrencies: CoreDataSimpleItems.convertRealmToCurrencyItems(coredata: CoreDataMethods.sharedInstance.currenciesRealm))
+        
     }
     
     
@@ -27,7 +29,8 @@ class HomeInteractor: HomeInteractorInput {
         WebServices.sharedInstance.getLatest(for: nil) { [weak weakSelf = self] (result) in
             if let currencyItems = result {
                 for item in currencyItems {
-                    _ = CoreDataMethods.sharedInstance.addCurrencyRates(item)
+//                    _ = CoreDataMethods.sharedInstance.addCurrencyRates(item)
+                    _ = CoreDataMethods.sharedInstance.addCurrencyRatesRealm(item)
                 }
                 weakSelf?.getCachedCurrencies()
             }

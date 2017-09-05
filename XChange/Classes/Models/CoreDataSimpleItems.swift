@@ -41,4 +41,22 @@ class CoreDataSimpleItems {
         return result
     }
     
+    
+    class func convertRealmToCurrencyItem(coredata currencyItem: CurrencyRealm) -> CurrencyItem {
+        return CurrencyItem(name: currencyItem.name,
+                            code: currencyItem.code,
+                            symbol: currencyItem.symbol,
+                            rate: Float(currencyItem.rate))
+        
+    }
+    
+    
+    class func convertRealmToCurrencyItems(coredata currencyItems: Array<CurrencyRealm>) -> Array<CurrencyItem> {
+        var result: Array<CurrencyItem> = []
+        for item in currencyItems {
+            result.append(CoreDataSimpleItems.convertRealmToCurrencyItem(coredata: item))
+        }
+        return result
+    }
+    
 }
