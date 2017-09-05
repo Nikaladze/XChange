@@ -204,6 +204,12 @@
                                     <constraint firstAttribute="width" secondItem="YeR-Q5-hGW" secondAttribute="height" multiplier="1:1" id="kx8-1P-vmx"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aka Nikaladze" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSl-Pe-ZHD">
+                                <rect key="frame" x="134.5" y="411" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nick Voloshyn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTp-c0-DML">
                                 <rect key="frame" x="130.5" y="33.5" width="113.5" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -237,9 +243,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="KzP-34-4Ns" secondAttribute="trailing" id="b1o-O3-q7y"/>
                             <constraint firstItem="fTp-c0-DML" firstAttribute="centerX" secondItem="BTk-Ed-E61" secondAttribute="centerX" id="c5k-wc-fJH"/>
                             <constraint firstItem="lMJ-bB-en0" firstAttribute="centerX" secondItem="BTk-Ed-E61" secondAttribute="centerX" id="kn5-1i-fXC"/>
+                            <constraint firstItem="TSl-Pe-ZHD" firstAttribute="top" secondItem="YeR-Q5-hGW" secondAttribute="bottom" constant="8" symbolic="YES" id="nE5-jJ-CLN"/>
                             <constraint firstItem="IUY-wa-VbI" firstAttribute="leading" secondItem="BTk-Ed-E61" secondAttribute="leading" id="ptZ-02-VKx"/>
                             <constraint firstItem="jXC-3b-Tmt" firstAttribute="top" secondItem="lMJ-bB-en0" secondAttribute="bottom" constant="8" symbolic="YES" id="r4l-Tg-Xzu"/>
                             <constraint firstAttribute="trailing" secondItem="YeR-Q5-hGW" secondAttribute="trailing" constant="20" symbolic="YES" id="vgm-6N-rpq"/>
+                            <constraint firstItem="TSl-Pe-ZHD" firstAttribute="centerX" secondItem="YeR-Q5-hGW" secondAttribute="centerX" id="woz-D1-E6R"/>
                         </constraints>
                     </view>
                 </viewController>
